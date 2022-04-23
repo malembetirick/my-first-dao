@@ -1,0 +1,28 @@
+{
+  "name": "numerai-cloud-dao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy:test": "node index.js",
+    "deploy-nft:test": "node deploy.js",
+    "custom-nft:test": "node nft.js",
+    "claim-nft:test": "node claim.js",
+    "deploy-token:test": "node token.js",
+    "print-money:test": "node print-money.js",
+    "airdrop:test": "node airdrop-token.js",
+    "governance:test": "node vote.js",
+    "vote:test": "node setup-vote.js",
+    "vote-proposal:test": "node vote-proposal.js",
+    "revoke:test": "node revoke-roles.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@thirdweb-dev/sdk": "^2.0.16"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
